@@ -1,0 +1,47 @@
+@import 'gryd';
+@import 'resolutions';
+@import 'mixin';
+@import 'color';
+
+body{
+	background: $naranja;
+}
+
+.btn{
+	text-align:center;
+	&__item{
+		@include btn;
+		&:hover{
+			color: $blanco;
+			}
+		}
+	}
+
+.text{
+	&__item{
+		@include texto;
+	}
+}
+.nav {	
+	text-align: center;
+	&__bar{
+		background: $amarillo;
+	}
+		
+    &__titulo {
+    	color:$blanco;
+    }
+	&__item {
+		
+		&--a{
+
+			text-decoration: none;
+			color: $blanco;
+			padding: 20px;
+			&:hover{
+				color: $amarillo;
+			}
+		}
+    }
+}
+

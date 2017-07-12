@@ -1,0 +1,12 @@
+@mixin texto {
+	color: $blanco;
+	text-align: center;
+}
+
+@mixin btn {
+	background: $amarillo;
+	border: 0;
+	height: 30px;
+	width: 200px;
+	border-radius: 4px;
+}
